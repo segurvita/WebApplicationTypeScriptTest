@@ -10,7 +10,7 @@
 namespace WebApplicationTypeScriptTest {
     
     
-    public partial class WebForm1 {
+    public partial class Default {
         
         /// <summary>
         /// form1 コントロール。
