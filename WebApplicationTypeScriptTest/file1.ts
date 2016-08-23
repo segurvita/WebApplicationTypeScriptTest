@@ -1,13 +1,19 @@
-﻿class Greeter {
-   greeting: string;
-   constructor(message: string) {
-     this.greeting = message;
-   }
-   greet() {
-     return "Hello, " + this.greeting;
-   }
+﻿//挨拶クラスを定義
+class Greeter {
+    //非公開メンバ変数
+    private greeting: string;
+
+    //コンストラクタ
+    constructor(message: string) {
+        this.greeting = message;
+    }
+
+    //公開メソッド
+    public greet() {
+        return "Hello " + this.greeting;
+    }
 }
 
-var greeter = new Greeter("world");
+//インスタンス化
+var greeter = new Greeter("World");
 alert(greeter.greet());
-
