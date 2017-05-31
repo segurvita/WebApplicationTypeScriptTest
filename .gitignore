@@ -1,0 +1,5 @@
+/WebApplicationTypeScriptTest/obj/Debug/*.cache
+/WebApplicationTypeScriptTest/bin/*.pdb
+/WebApplicationTypeScriptTest/bin/WebApplicationTypeScriptTest.dll
+/WebApplicationTypeScriptTest/obj/Debug/*.pdb
+/WebApplicationTypeScriptTest/obj/Debug
